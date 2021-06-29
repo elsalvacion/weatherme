@@ -1,0 +1,37 @@
+.center {
+  width: 60vw;
+  height: 60vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 500;
+  color: white;
+  padding: 50px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .center {
+    width: 80vw;
+    height: 80vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 500;
+    color: white;
+    padding: 20px;
+  }
+}
+
+@media (max-height: 400px) {
+  .center {
+    width: 80vw;
+    height: 80vh;
+    transform: translate(-50%, 23%);
+  }
+}

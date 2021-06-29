@@ -1,0 +1,5 @@
+room for location 
+
+opacity for humidity
+
+colorize for temperature
